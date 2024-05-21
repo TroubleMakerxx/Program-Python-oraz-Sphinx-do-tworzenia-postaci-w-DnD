@@ -1,0 +1,454 @@
+Dragonborn_Barbarian:
+Stworzona Postać!
+Imie: Roland Barns
+Rasa: Dragonborn
+Klasa: Barbarian
+Historia: Smoczy wojownik który opuścił swoje rodzinne miasto Nemfis w poszukiwaniu przygód.
+
+Dragonborn_Fighter:
+Stworzona Postać!
+Imię: Dragan Żelazna Dłoń
+Rasa: Dragonborn
+Klasa: Fighter
+Historia: Wytrawny wojownik, opuścił swoją rodzinę i ojczyznę, by zdobyć sławę i szacunek w brutalnym świecie walki.
+
+Dragonborn_Monk:
+Stworzona Postać!
+Imię: Lirael Miedziany Pazur
+Rasa: Dragonborn
+Klasa: Monk
+Historia: Mnich-szermierz, który opuścił zakon, aby doskonalić umiejętności walki i ducha.
+
+Dragonborn_Paladin:
+Stworzona Postać!
+Imię: Zephyr Błękitnouchy
+Rasa: Dragonborn
+Klasa: Paladin
+Historia: Zwiastun sprawiedliwości i ochrony, opuścił rodzinne miasto, aby bronić słabszych i zwalczać zło.
+
+Dragonborn_Rouge:
+Stworzona Postać!
+Imię: Tordek Kamienne Serce
+Rasa: Dwarf
+Klasa: Rogue
+Historia: Tordek jest zręcznym złodziejem i przemytnikiem, który opuścił góry, aby prowadzić życie w podziemnym świecie intryg i skradania.
+
+Dragonborn_Cleric:
+Stworzona Postać!
+Imię: Ardyn Zimnokrwisty
+Rasa: Dragonborn
+Klasa: Cleric
+Historia: Kapłan smoczego bóstwa, opuścił górską świątynię, by szerzyć wiarę i uzdrawiać rannych w potrzebie.
+
+Dragonborn_Artificer:
+Stworzona Postać!
+Imię: Thorne Żelaznaskóry
+Rasa: Dragonborn
+Klasa: Artificer
+Historia: Wynalazca-smok, który wyemigrował ze swojej wysokiej warowni, aby studiować technologię i magię.
+
+Dragonborn_Wizard:
+Stworzona Postać!
+Imię: Ignar Cieniodyszny
+Rasa: Dragonborn
+Klasa: Wizard
+Historia: Uczeń magii, opuścił spokojne smocze miasto, aby zgłębiać tajniki zaklęć i starożytnych artefaktów.
+
+Dragonborn_Sourcerer:
+Stworzona Postać!
+Imię: Selene Plamienista
+Rasa: Dragonborn
+Klasa: Sorcerer
+Historia: Urodzona z potężnym smoczym dziedzictwem magii, wyruszyła w świat, aby odkryć i kontrolować swoje zdolności.
+
+Dragonborn_Bard:
+Stworzona Postać!
+Imię: Valeria Smoczogardzka
+Rasa: Dragonborn
+Klasa: Bard
+Historia: Młoda smocza piosenkarka, opuściła swój rodzinny górską wioskę w poszukiwaniu sławy i melodycznego powiewu wiatru.
+
+Dragonborn_Ranger:
+Stworzona Postać!
+Imię: Draegon Steal
+Rasa: Dragonborn
+Klasa: Ranger
+Historia: Zdobywca, który odszedł z górskiej enklawy, aby stać się mistrzem w strzelaniu z łuku i łączeniu się z przyrodą.
+
+Dragonborn_Warlock:
+Stworzona Postać!
+Imię: Xalith Warn
+Rasa: Dragonborn
+Klasa: Warlock
+Historia: Podpisał tajemniczą umowę z potężnym smoczym patronem, uzyskując moc nieznaną w rodzinnej wiosce aby móc wyruszyć w przygodę.
+
+Dragonborn_Druid:
+Stworzona Postać!
+Imię: Draga Drewniane Serce
+Rasa: Dragonborn
+Klasa: Druid
+Historia: Z wyboru natury, opuściła góry, aby odkryć tajemnice przyrody i poznać tajemnicze siły lasów.
+
+Dwarf_Barbarian:
+Stworzona Postać!
+Imię: Borin Kamieniostry
+Rasa: Dwarf
+Klasa: Barbarian
+Historia: Borin pochodzi z krasnoludzkiego klanu Górskiego Topora i opuścił swoją górską osadę, by stać się dzikim wojownikiem, znanych z gniewu i nieustępliwości.
+
+Dwarf_Fighter:
+Stworzona Postać!
+Imię: Baldrick Kamienny Młot
+Rasa: Dwarf
+Klasa: Fighter
+Historia: Baldrick, utalentowany krasnoludzki wojownik, wyruszył z podziemnych kopalni, by zdobyć sławę i szacunek w krwawych walkach na powierzchni, używając swojego niezłomnego charakteru i umiejętności w walce jako narzędzi do obrony swojego ludu.
+
+Dwarf_Monk:
+Stworzona Postać!
+Imię: Nalda Ciepłozębna
+Rasa: Dwarf
+Klasa: Monk
+Historia: Nalda to mniszka, która opuściła klasztor, aby doskonalić umiejętności walki i ducha.
+
+Dwarf_Paladin:
+Stworzona Postać!
+Imię: Durin Kowal Żywiołów
+Rasa: Dwarf
+Klasa: Paladin
+Historia: Durin jest rycerzem serca, który opuścił swoje krasnoludzkie podziemia, aby chronić słabszych i zwalczać zło.
+
+Dwarf_Rogue:
+Stworzona Postać!
+Imię: Tordek Kamienne Serce
+Rasa: Dwarf
+Klasa: Rogue
+Historia: Tordek jest zręcznym złodziejem i przemytnikiem, który opuścił góry, aby prowadzić życie w podziemnym świecie intryg i skradania.
+
+Dwarf_Cleric:
+Stworzona Postać!
+Imię: Finneon Nocna Gwiazda
+Rasa: Elf
+Klasa: Cleric
+Historia: Finneon jest elfim kapłanem, który opuścił swoje elfie królestwo, by szerzyć wiarę i leczyć rannych w potrzebie.
+
+Dwarf_Artificer:
+Stworzona Postać!
+Imię: Barn Żelaznaskóry
+Rasa: Dwarf
+Klasa: Artificer
+Historia: Wynalazca, który wyemigrował ze swojej górskiej wioski, aby studiować technologię i magię.
+
+Dwarf_Wizard:
+Stworzona Postać!
+Imię: Larom Cienisty
+Rasa: Dwarf
+Klasa: Wizard
+Historia: Uczeń magii, opuścił spokojne krasnoludzkie miasto, aby zgłębiać tajniki zaklęć i starożytnych artefaktów.
+
+Dwarf_Sorcerer:
+Stworzona Postać!
+Imię: Hilda Ogniomłot
+Rasa: Dwarf
+Klasa: Sorcerer
+Historia: Hilda ma krasnoludzkie korzenie, ale odkryła, że w jej żyłach płynie magia krwi, co skłoniło ją do opuszczenia rodzinnego miasta, aby kontrolować swoje smocze moce.
+
+Dwarf_Bard:
+Stworzona Postać!
+Imię: Thrain Żelaznoręki
+Rasa: Dwarf
+Klasa: Bard
+Historia: Thrain jest słynnym krasnoludzkim bardem, który opuścił swoją kopalnię, by opowiadać historie i śpiewać pieśni o bohaterach swojego ludu.
+
+Dwarf_Ranger:
+Stworzona Postać!
+Imię: Balin Strzelec Głębokich Szachownic
+Rasa: Dwarf
+Klasa: Ranger
+Historia: Balin jest strzelcem i tropicielem, który opuścił podziemne tunele, by stać się ekspertem w polowaniach i przeżyciu na powierzchni.
+
+Dwarf_Warlock:
+Stworzona Postać!
+Imię: Thora Runopisarka
+Rasa: Dwarf
+Klasa: Warlock
+Historia: Thora nawiązała tajemniczą umowę z przerażającym bytem z innej płaszczyzny, co skłoniło ją do opuszczenia kopalni i zdobywania nowej wiedzy.
+
+Dwarf_Druid:
+Stworzona Postać!
+Imię: Grundor Zielony Palec
+Rasa: Dwarf
+Klasa: Druid
+Historia: Grundor jest krasnoludzkim druidem, który opuścił góry, aby bronić natury i rozwijać swoje zdolności w przyrody.
+
+Elf_Barbarian:
+Stworzona Postać!
+Imię: Elowen Elderwoods
+Rasa: Elf
+Klasa: Barbarian
+Historia: Elowen to elfia wojowniczka, która opuściła swoje elfie królestwo w poszukiwaniu przygód i zyskuła sławę jako nieustraszona barbarzyńska wojowniczka.
+
+Elf_Fighter:
+Stworzona Postać!
+Imię: Elandor Gwiezdny Miecz
+Rasa: Elf
+Klasa: Fighter
+Historia: Elandor to elfi wojownik, który opuścił swoje elfie królestwo, by zdobyć sławę i doskonalić swoje umiejętności w posługiwaniu się różnorodnymi broniami, broniąc jednocześnie swojego ludu przed zagrożeniami na powierzchni.
+
+Elf_Monk:
+Stworzona Postać!
+Imię: Selene Gwiezdna Cisza
+Rasa: Elf
+Klasa: Monk
+Historia: Selene to elfia mnichyni, która opuściła swoją enklawę, by doskonalić umiejętności walki i ducha.
+
+Elf_Paladin:
+Stworzona Postać!
+Imię: Aelarion Księżycowy Rycerz
+Rasa: Elf
+Klasa: Paladin
+Historia: Aelarion jest elfim rycerzem, który opuścił swoje królestwo, by bronić słabszych i zwalczać zło, czerpiąc siłę z blasku księżyca.
+
+Elf_Rogue:
+Stworzona Postać!
+Imię: Valandil Cichy Złodziej
+Rasa: Elf
+Klasa: Rogue
+Historia: Valandil to cichy i sprytny elfi złodziej, który opuścił swoje rodzinne lasy, by prowadzić życie w podziemnym świecie intryg i skradania.
+
+Elf_Cleric:
+Stworzona Postać!
+Imię: Finneon Nocna Gwiazda
+Rasa: Elf
+Klasa: Cleric
+Historia: Finneon jest elfim kapłanem, który opuścił swoje elfie królestwo, by szerzyć wiarę i leczyć rannych w potrzebie.
+
+Elf_Artificer:
+Stworzona Postać!
+Imię: Alarion Słoneczny
+Rasa: Elf
+Klasa: Artificer
+Historia: Alarion jest elfim wynalazcą, który opuścił swoje rodzinne lasy, by tworzyć zaawansowane konstrukcje i urządzenia magiczne.
+
+Elf_Wizard:
+Stworzona Postać!
+Imię: Lirael Księżycowy Mag
+Rasa: Elf
+Klasa: Wizard
+Historia: Lirael, młoda elfia czarodziejka, opuściła lasy, by zgłębiać starożytne zaklęcia i tajemnice magii.
+
+Elf_Sorcerer:
+Stworzona Postać!
+Imię: Feylinna Mrocznogwiazdna
+Rasa: Elf
+Klasa: Sorcerer
+Historia: Feylinna odkryła, że jest dziedziczką smoczej krwi, co skłoniło ją do opuszczenia elfiego królestwa, by kontrolować swoje magiczne zdolności.
+
+Elf_Bard:
+Stworzona Postać!
+Imię: Thalindra  Księżycowa Piosenkarka
+Rasa: Elf
+Klasa: Bard
+Historia: Thalindra jest utalentowaną elfią bardką, która opuściła swoją enklawę, by podróżować i opowiadać historie oraz śpiewać pieśni, odkrywając tajemnice świata.
+
+Elf_Ranger:
+Stworzona Postać!
+Imię: Elarion Łowca Dusz
+Rasa: Elf
+Klasa: Ranger
+Historia: Elarion jest doświadczonym łowcą i tropicielem, który opuścił lasy, by stać się mistrzem w polowaniach i ochronie przyrody.
+
+Elf_Warlock:
+Stworzona Postać!
+Imię: Thessalia Steins
+Rasa: Elf
+Klasa: Warlock
+Historia: Thessalia nawiązała tajemniczą umowę z mrocznym bytem, który oferował jej niezwykłą moc, co skłoniło ją do opuszczenia elfiej enklawy, by poznać tajemnice tego patrona.
+
+Elf_Druid:
+Stworzona Postać!
+Imię: Orion Leśna Dusza
+Rasa: Elf
+Klasa: Druid
+Historia: Orion jest elfim druidem, który opuścił lasy, by chronić naturę i odkrywać tajemnice przyrody. 
+
+Human_Barbarian:
+Stworzona Postać!
+Imię: Adrian Miecznik
+Rasa: Human
+Klasa: Barbarian
+Historia: Adrian to ludzki barbarzyńca, który opuścił swoją wioskę, by stać się dzikim wojownikiem, znany z nieustraszonego gniewu i nieustępliwości.
+
+Human_Fighter:
+Stworzona Postać!
+Imię: Richard Żelaznoręki
+Rasa: Human
+Klasa: Fighter
+Historia: Richard to wytrawny ludzki wojownik, który opuścił swoją rodzinę i osadę, by zdobyć sławę i doskonalić swoje umiejętności w walce, walcząc w licznych bitwach i turniejach.
+
+Human_Monk:
+Stworzona Postać!
+Imię: Maria Przywódczyni Ducha
+Rasa: Human
+Klasa: Monk
+Historia: Maria to mniszka, która opuściła swój zakon, by doskonalić umiejętności walki i ducha.
+
+Human_Paladin:
+Stworzona Postać!
+Imię: Cedric Rycerz Światła
+Rasa: Human
+Klasa: Paladin
+Historia: Cedric jest ludzkim rycerzem, który poświęcił się służbie dla sprawiedliwości i ochrony słabszych.
+
+Human_Rogue:
+Stworzona Postać!
+Imię: Vincent Mistrz Złodziei
+Rasa: Human
+Klasa: Rogue
+Historia: Vincent to bystry i zręczny złodziej, który podróżuje po świecie, by realizować własne cele i prowadzić życie w podziemnym świecie intryg i skradania.
+
+Human_Cleric:
+Stworzona Postać!
+Imię: Finneon Gwiazda Zaranna
+Rasa: Human
+Klasa: Cleric
+Historia: Finneon jest elfim kapłanem, który opuścił swoje elfie królestwo, by szerzyć wiarę i leczyć rannych w potrzebie.
+
+Human_Artificer:
+Stworzona Postać!
+Imię: Samuel Inżynier
+Rasa: Human
+Klasa: Artificer
+Historia: Samuel jest ludzkim inżynierem i wynalazcą, który podróżuje w poszukiwaniu nowych technologii i magicznych urządzeń.
+
+Human_Wizard:
+Stworzona Postać!
+Imię: Eliza Magiczna
+Rasa: Human
+Klasa: Wizard
+Historia: Eliza to młoda ludzka czarodziejka, która opuściła swoją rodzinną wioskę, by zgłębiać tajemnice magii i odkrywać zaklęcia.
+
+Human_Sorcerer:
+Stworzona Postać!
+Imię: Jonas Potężna Krew
+Rasa: Human
+Klasa: Sorcerer
+Historia: Jonas odkrył, że ma w sobie niezwykłą moc dziedziczną, co skłoniło go do opuszczenia rodzinnego miasta, by nauczyć się kontrolować swoje smocze zdolności.
+
+Human_Bard:
+Stworzona Postać!
+Imię: Isabella Pieśniarka Serc
+Rasa: Human
+Klasa: Bard
+Historia: Isabella jest utalentowaną ludzką bardką, która wyruszyła w świat, by opowiadać historie, śpiewać pieśni i rozprzestrzeniać radość.
+
+Human_Ranger:
+Stworzona Postać!
+Imię: Eleanor Strzelec
+Rasa: Human
+Klasa: Ranger
+Historia: Eleanor jest doświadczoną łuczniczką i tropicielką, która podróżuje po świecie, by chronić przyrodę i zwalczać zagrożenia.
+
+Human_Warlock:
+Stworzona Postać!
+Imię: Felix Cienisty
+Rasa: Human
+Klasa: Warlock
+Historia: Felix nawiązał tajemniczą umowę z mrocznym bytem, co skłoniło go do opuszczenia rodzinnego miasta, by zdobywać władzę i tajemnice patrona.
+
+Human_Druid:
+Stworzona Postać!
+Imię: Clara Wędrowiec
+Rasa: Human
+Klasa: Druid
+Historia: Clara to ludzka druidka, która opuściła swoją osadę, by zbadać i chronić przyrodę oraz odkryć tajemnice lasów.
+
+Tiefling_Barbarian:
+Stworzona Postać!
+Imię: Zephyr Ciemnoskrzydły
+Rasa: Tiefling
+Klasa: Barbarian
+Historia: Zephyr to tiefling barbarzyńca, wyrzucony ze społeczności ludzi ze względu na swoje diabelne cechy, a teraz używa swojej siły i gniewu jako broń w walce.
+
+Tiefling_Fighter:
+Stworzona Postać!
+Imię: Xerxes Piekielny Orzeł
+Rasa: Tiefling
+Klasa: Fighter
+Historia: Xerxes to nieustraszony tiefling wojownik, który opuścił swoje piekielne korzenie, by zdobyć sławę jako niezrównany mistrz walki i nieustraszony obrońca tych, którym potrzeba pomocy.
+
+Tiefling_Monk:
+Stworzona Postać!
+Imię: Dorn Ciemnoskrzydły
+Rasa: Tiefling
+Klasa: Monk
+Historia: Dorn to tiefling mnich, który odnalazł spokój w wewnętrznym oświeceniu i wykorzystuje swoje umiejętności w walce, aby ochronić innych przed zagrożeniami.
+
+Tiefling_Paladin:
+Stworzona Postać!
+Imię: Valeria Diabelska Strażniczka
+Rasa: Tiefling
+Klasa: Paladin
+Historia: Valeria jest tiefling paladynem, która wyruszyła w świat, aby walczyć z mrocznymi siłami i bronić słabszych, kierując się wartościami sprawiedliwości i odwagi.
+
+Tiefling_Rogue:
+Stworzona Postać!
+Imię: Thorn Diabelski Złodziej
+Rasa: Tiefling
+Klasa: Rogue
+Historia: Thorn to bystry i sprytny tiefling złodziej, który używa swoich umiejętności w skradaniu i intrygach, by osiągnąć własne cele w świecie pełnym niebezpieczeństw.
+
+Tiefling_Cleric:
+Stworzona Postać!
+Imię: Vesperia Demoniczna
+Rasa: Tiefling
+Klasa: Cleric
+Historia: Vesperia jest tiefling kapłanką, która oddaje cześć mrocznym bogom i służy jako pośredniczka między światem śmiertelników a piekłem.
+
+Tiefling_Artificer:
+Stworzona Postać!
+Imię: Ignatius Ognisty Inżynier
+Rasa: Tiefling
+Klasa: Artificer
+Historia: Ignatius to tiefling wynalazca, który wykorzystuje swoje umiejętności techniczne, by konstruować zdumiewające maszyny i urządzenia magiczne.
+
+Tiefling_Wizard:
+Stworzona Postać!
+Imię: Malakai Demoniczny Zaklinacz
+Rasa: Tiefling
+Klasa: Wizard
+Historia: Malakai to tiefling czarodziej, który zdobywa wiedzę o magii, aby odkrywać tajemnice zaklęć i kontrolować starożytne moce.
+
+Tiefling_Sorcerer:
+Stworzona Postać!
+Imię: Seraphina Demoniczna Czarownica
+Rasa: Tiefling
+Klasa: Sorcerer
+Historia: Seraphina ma diabelne korzenie, a jej magia jest dziedziczna, co skłoniło ją do wyruszenia w świat, by kontrolować swoje potężne zdolności.
+
+Tiefling_Bard:
+Stworzona Postać!
+Imię: Lilith Popielata
+Rasa: Tiefling
+Klasa: Bard
+Historia: Lilith jest tiefling bardem, który wykorzystuje swoje diabelne korzenie, by opowiadać mrożące krew w żyłach opowieści i śpiewać pieśni pełne tajemniczości.
+
+Tiefling_Ranger:
+Stworzona Postać!
+Imię: Lucius Mroczny Strzelec
+Rasa: Tiefling
+Klasa: Ranger
+Historia: Lucius to tiefling strzelec i tropiciel, który wykorzystuje swoje umiejętności do polowania na potwory i chronienia ludzi przed niebezpieczeństwem.
+
+Tiefling_Warlock:
+Stworzona Postać!
+Imię: Liliana Umiłowana
+Rasa: Tiefling
+Klasa: Warlock
+Historia: Liliana nawiązała tajemniczą umowę z diabłem, uzyskując niezwykłe moce w zamian za swoją duszę, co skłoniło ją do opuszczenia ludzkich miast i zdobywania władzy.
+
+Tiefling_Druid:
+Stworzona Postać!
+Imię: Dante Nieskończony
+Rasa: Tiefling
+Klasa: Druid
+Historia: Dante to tiefling druid, który wybrał się w podróż, by zbadać tajemnice przyrody i przywracać harmonię między światem naturalnym a demonicznie zniekształconym.

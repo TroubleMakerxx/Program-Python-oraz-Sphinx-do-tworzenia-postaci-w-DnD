@@ -1,0 +1,382 @@
+knowledge source dnd
+
+facets
+  ask     yes;
+  single  yes;
+
+  postac :
+     ask     no
+     single  yes
+     val oneof  
+     { 
+        "Dragonborn Barbarian",
+		"Dragonborn Fighter",
+        "Dragonborn Monk",
+        "Dragonborn Paladin",
+        "Dragonborn Rouge",
+        "Dragonborn Cleric",
+		"Dragonborn Artificer",
+		"Dragonborn Wizard",
+		"Dragonborn Sourcerer",
+		"Dragonborn Bard",
+		"Dragonborn Ranger",
+		"Dragonborn Warlock",
+		"Dragonborn Druid",
+		"Dwarf Barbarian",
+        "Dwarf Fighter",
+        "Dwarf Monk",
+        "Dwarf Paladin",
+        "Dwarf Rogue",
+        "Dwarf Cleric",
+        "Dwarf Artificer",
+        "Dwarf Wizard",
+        "Dwarf Sorcerer",
+        "Dwarf Bard",
+        "Dwarf Ranger",
+        "Dwarf Warlock",
+        "Dwarf Druid",
+		"Elf Barbarian",
+        "Elf Fighter",
+        "Elf Monk",
+        "Elf Paladin",
+        "Elf Rogue",
+        "Elf Cleric",
+        "Elf Artificer",
+        "Elf Wizard",
+        "Elf Sorcerer",
+        "Elf Bard",
+        "Elf Ranger",
+        "Elf Warlock",
+        "Elf Druid",
+		"Human Barbarian",
+        "Human Fighter",
+        "Human Monk",
+        "Human Paladin",
+        "Human Rogue",
+        "Human Cleric",
+        "Human Artificer",
+        "Human Wizard",
+        "Human Sorcerer",
+        "Human Bard",
+        "Human Ranger",
+        "Human Warlock",
+        "Human Druid",
+		"Tiefling Barbarian",
+        "Tiefling Fighter",
+        "Tiefling Monk",
+        "Tiefling Paladin",
+        "Tiefling Rogue",
+        "Tiefling Cleric",
+        "Tiefling Artificer",
+        "Tiefling Wizard",
+        "Tiefling Sorcerer",
+        "Tiefling Bard",
+        "Tiefling Ranger",
+        "Tiefling Warlock",
+        "Tiefling Druid"
+     };
+
+  wybierz_rase :
+     ask     yes
+     single  yes
+     query   "Jaka rase wybierasz?"
+     val oneof
+     {
+        "Dragonborn",
+        "Dwarf",
+        "Elf",
+        "Human",
+        "Tiefling"
+     };
+
+  wybierz_klase :
+     ask     yes
+     single  yes
+     query   "Jaki typ postaci Cie interesuje?"
+     val oneof
+     {
+        "Furia i Wscieklosc",
+        "Mistrz Miecza",
+        "Sztuki walki i duchowa energia",
+        "Straznik Swiatla",
+        "Infiltracja i Obrazenia krytyczne",
+        "Wsparcie i Leczenie",
+        "Inzynieria magiczna",
+        "Wiedza i Arkana Magi",
+        "Narodzony z Magia",
+        "Muzyka i Magia",
+        "Zrecznosc i Bron dystansowa",
+        "Magia paktow i Cienie",
+        "Przywiazanie do natury"
+     };
+
+end; // facets
+
+rules
+
+   1001: postac ( typ ) = "Dragonborn Barbarian" if
+             wybierz_rase ( typ ) = "Dragonborn" 
+             & wybierz_klase ( typ ) = "Furia i Wscieklosc";
+			 
+   1002: postac ( typ ) = "Dragonborn Fighter" if
+             wybierz_rase ( typ ) = "Dragonborn" 
+             & wybierz_klase ( typ ) = "Mistrz Miecza";
+
+   1003: postac ( typ ) = "Dragonborn Monk" if
+             wybierz_rase ( typ ) = "Dragonborn" 
+             & wybierz_klase ( typ ) = "Sztuki walki i duchowa energia";
+
+   1004: postac ( typ ) = "Dragonborn Paladin" if
+             wybierz_rase ( typ ) = "Dragonborn" 
+             & wybierz_klase ( typ ) = "Straznik Swiatla";
+
+   1005: postac ( typ ) = "Dragonborn Rouge" if
+             wybierz_rase ( typ ) = "Dragonborn" 
+             & wybierz_klase ( typ ) = "Infiltracja i Obrazenia krytyczne";
+			 
+   1006: postac ( typ ) = "Dragonborn Cleric" if
+             wybierz_rase ( typ ) = "Dragonborn" 
+             & wybierz_klase ( typ ) = "Wsparcie i Leczenie";
+			 
+   1007: postac ( typ ) = "Dragonborn Artificer" if
+             wybierz_rase ( typ ) = "Dragonborn" 
+             & wybierz_klase ( typ ) = "Inzynieria magiczna";
+			 
+   1008: postac ( typ ) = "Dragonborn Wizard" if
+             wybierz_rase ( typ ) = "Dragonborn" 
+             & wybierz_klase ( typ ) = "Wiedza i Arkana Magi";
+			 
+   1009: postac ( typ ) = "Dragonborn Sourcerer" if
+             wybierz_rase ( typ ) = "Dragonborn" 
+             & wybierz_klase ( typ ) = "Narodzony z Magia";
+			 
+   1010: postac ( typ ) = "Dragonborn Bard" if
+             wybierz_rase ( typ ) = "Dragonborn" 
+             & wybierz_klase ( typ ) = "Muzyka i Magia";
+			 
+   1011: postac ( typ ) = "Dragonborn Ranger" if
+             wybierz_rase ( typ ) = "Dragonborn" 
+             & wybierz_klase ( typ ) = "Zrecznosc i Bron dystansowa";
+			 
+   1012: postac ( typ ) = "Dragonborn Warlock" if
+             wybierz_rase ( typ ) = "Dragonborn" 
+             & wybierz_klase ( typ ) = "Magia paktow i Cienie";
+			 
+   1013: postac ( typ ) = "Dragonborn Druid" if
+             wybierz_rase ( typ ) = "Dragonborn" 
+             & wybierz_klase ( typ ) = "Przywiazanie do natury";
+			 
+   1014: postac ( typ ) = "Dwarf Barbarian" if
+             wybierz_rase ( typ ) = "Dwarf" 
+             & wybierz_klase ( typ ) = "Furia i Wscieklosc";
+			 
+   1015: postac ( typ ) = "Dwarf Fighter" if
+             wybierz_rase ( typ ) = "Dwarf" 
+             & wybierz_klase ( typ ) = "Mistrz Miecza";
+
+   1016: postac ( typ ) = "Dwarf Monk" if
+             wybierz_rase ( typ ) = "Dwarf" 
+             & wybierz_klase ( typ ) = "Sztuki walki i duchowa energia";
+
+   1017: postac ( typ ) = "Dwarf Paladin" if
+             wybierz_rase ( typ ) = "Dwarf" 
+             & wybierz_klase ( typ ) = "Straznik Swiatla";
+
+   1018: postac ( typ ) = "Dwarf Rogue" if
+             wybierz_rase ( typ ) = "Dwarf" 
+             & wybierz_klase ( typ ) = "Infiltracja i Obrazenia krytyczne";
+			 
+   1019: postac ( typ ) = "Dwarf Cleric" if
+             wybierz_rase ( typ ) = "Dwarf" 
+             & wybierz_klase ( typ ) = "Wsparcie i Leczenie";
+			 
+   1020: postac ( typ ) = "Dwarf Artificer" if
+             wybierz_rase ( typ ) = "Dwarf" 
+             & wybierz_klase ( typ ) = "Inzynieria magiczna";
+			 
+   1021: postac ( typ ) = "Dwarf Wizard" if
+             wybierz_rase ( typ ) = "Dwarf" 
+             & wybierz_klase ( typ ) = "Wiedza i Arkana Magi";
+			 
+   1022: postac ( typ ) = "Dwarf Sorcerer" if
+             wybierz_rase ( typ ) = "Dwarf" 
+             & wybierz_klase ( typ ) = "Narodzony z Magia";
+			 
+   1023: postac ( typ ) = "Dwarf Bard" if
+             wybierz_rase ( typ ) = "Dwarf" 
+             & wybierz_klase ( typ ) = "Muzyka i Magia";
+			 
+   1024: postac ( typ ) = "Dwarf Ranger" if
+             wybierz_rase ( typ ) = "Dwarf" 
+             & wybierz_klase ( typ ) = "Zrecznosc i Bron dystansowa";
+			 
+   1025: postac ( typ ) = "Dwarf Warlock" if
+             wybierz_rase ( typ ) = "Dwarf" 
+             & wybierz_klase ( typ ) = "Magia paktow i Cienie";
+			 
+   1026: postac ( typ ) = "Dwarf Druid" if
+             wybierz_rase ( typ ) = "Dwarf" 
+             & wybierz_klase ( typ ) = "Przywiazanie do natury";
+
+
+   1027: postac ( typ ) = "Elf Barbarian" if
+             wybierz_rase ( typ ) = "Elf" 
+             & wybierz_klase ( typ ) = "Furia i Wscieklosc";
+			 
+   1028: postac ( typ ) = "Elf Fighter" if
+             wybierz_rase ( typ ) = "Elf" 
+             & wybierz_klase ( typ ) = "Mistrz Miecza";
+
+   1029: postac ( typ ) = "Elf Monk" if
+             wybierz_rase ( typ ) = "Elf" 
+             & wybierz_klase ( typ ) = "Sztuki walki i duchowa energia";
+
+   1030: postac ( typ ) = "Elf Paladin" if
+             wybierz_rase ( typ ) = "Elf" 
+             & wybierz_klase ( typ ) = "Straznik Swiatla";
+
+   1031: postac ( typ ) = "Elf Rogue" if
+             wybierz_rase ( typ ) = "Elf" 
+             & wybierz_klase ( typ ) = "Infiltracja i Obrazenia krytyczne";
+			 
+   1032: postac ( typ ) = "Elf Cleric" if
+             wybierz_rase ( typ ) = "Elf" 
+             & wybierz_klase ( typ ) = "Wsparcie i Leczenie";
+			 
+   1033: postac ( typ ) = "Elf Artificer" if
+             wybierz_rase ( typ ) = "Elf" 
+             & wybierz_klase ( typ ) = "Inzynieria magiczna";
+			 
+   1034: postac ( typ ) = "Elf Wizard" if
+             wybierz_rase ( typ ) = "Elf" 
+             & wybierz_klase ( typ ) = "Wiedza i Arkana Magi";
+			 
+   1035: postac ( typ ) = "Elf Sorcerer" if
+             wybierz_rase ( typ ) = "Elf" 
+             & wybierz_klase ( typ ) = "Narodzony z Magia";
+			 
+   1036: postac ( typ ) = "Elf Bard" if
+             wybierz_rase ( typ ) = "Elf" 
+             & wybierz_klase ( typ ) = "Muzyka i Magia";
+			 
+   1037: postac ( typ ) = "Elf Ranger" if
+             wybierz_rase ( typ ) = "Elf" 
+             & wybierz_klase ( typ ) = "Zrecznosc i Bron dystansowa";
+			 
+   1038: postac ( typ ) = "Elf Warlock" if
+             wybierz_rase ( typ ) = "Elf" 
+             & wybierz_klase ( typ ) = "Magia paktow i Cienie";
+			 
+   1039: postac ( typ ) = "Elf Druid" if
+             wybierz_rase ( typ ) = "Elf" 
+             & wybierz_klase ( typ ) = "Przywiazanie do natury";
+
+
+   1040: postac ( typ ) = "Human Barbarian" if
+             wybierz_rase ( typ ) = "Human" 
+             & wybierz_klase ( typ ) = "Furia i Wscieklosc";
+			 
+   1041: postac ( typ ) = "Human Fighter" if
+             wybierz_rase ( typ ) = "Human" 
+             & wybierz_klase ( typ ) = "Mistrz Miecza";
+
+   1042: postac ( typ ) = "Human Monk" if
+             wybierz_rase ( typ ) = "Human" 
+             & wybierz_klase ( typ ) = "Sztuki walki i duchowa energia";
+
+   1043: postac ( typ ) = "Human Paladin" if
+             wybierz_rase ( typ ) = "Human" 
+             & wybierz_klase ( typ ) = "Straznik Swiatla";
+
+   1044: postac ( typ ) = "Human Rogue" if
+             wybierz_rase ( typ ) = "Human" 
+             & wybierz_klase ( typ ) = "Infiltracja i Obrazenia krytyczne";
+			 
+   1045: postac ( typ ) = "Human Cleric" if
+             wybierz_rase ( typ ) = "Human" 
+             & wybierz_klase ( typ ) = "Wsparcie i Leczenie";
+			 
+   1046: postac ( typ ) = "Human Artificer" if
+             wybierz_rase ( typ ) = "Human" 
+             & wybierz_klase ( typ ) = "Inzynieria magiczna";
+			 
+   1047: postac ( typ ) = "Human Wizard" if
+             wybierz_rase ( typ ) = "Human" 
+             & wybierz_klase ( typ ) = "Wiedza i Arkana Magi";
+			 
+   1048: postac ( typ ) = "Human Sorcerer" if
+             wybierz_rase ( typ ) = "Human" 
+             & wybierz_klase ( typ ) = "Narodzony z Magia";
+			 
+   1049: postac ( typ ) = "Human Bard" if
+             wybierz_rase ( typ ) = "Human" 
+             & wybierz_klase ( typ ) = "Muzyka i Magia";
+			 
+   1050: postac ( typ ) = "Human Ranger" if
+             wybierz_rase ( typ ) = "Human" 
+             & wybierz_klase ( typ ) = "Zrecznosc i Bron dystansowa";
+			 
+   1051: postac ( typ ) = "Human Warlock" if
+             wybierz_rase ( typ ) = "Human" 
+             & wybierz_klase ( typ ) = "Magia paktow i Cienie";
+			 
+   1052: postac ( typ ) = "Human Druid" if
+             wybierz_rase ( typ ) = "Human" 
+             & wybierz_klase ( typ ) = "Przywiazanie do natury";
+
+
+   1053: postac ( typ ) = "Tiefling Barbarian" if
+             wybierz_rase ( typ ) = "Tiefling" 
+             & wybierz_klase ( typ ) = "Furia i Wscieklosc";
+			 
+   1054: postac ( typ ) = "Tiefling Fighter" if
+             wybierz_rase ( typ ) = "Tiefling" 
+             & wybierz_klase ( typ ) = "Mistrz Miecza";
+
+   1055: postac ( typ ) = "Tiefling Monk" if
+             wybierz_rase ( typ ) = "Tiefling" 
+             & wybierz_klase ( typ ) = "Sztuki walki i duchowa energia";
+
+   1056: postac ( typ ) = "Tiefling Paladin" if
+             wybierz_rase ( typ ) = "Tiefling" 
+             & wybierz_klase ( typ ) = "Straznik Swiatla";
+
+   1057: postac ( typ ) = "Tiefling Rogue" if
+             wybierz_rase ( typ ) = "Tiefling" 
+             & wybierz_klase ( typ ) = "Infiltracja i Obrazenia krytyczne";
+			 
+   1058: postac ( typ ) = "Tiefling Cleric" if
+             wybierz_rase ( typ ) = "Tiefling" 
+             & wybierz_klase ( typ ) = "Wsparcie i Leczenie";
+			 
+   1059: postac ( typ ) = "Tiefling Artificer" if
+             wybierz_rase ( typ ) = "Tiefling" 
+             & wybierz_klase ( typ ) = "Inzynieria magiczna";
+			 
+   1060: postac ( typ ) = "Tiefling Wizard" if
+             wybierz_rase ( typ ) = "Tiefling" 
+             & wybierz_klase ( typ ) = "Wiedza i Arkana Magi";
+			 
+   1061: postac ( typ ) = "Tiefling Sorcerer" if
+             wybierz_rase ( typ ) = "Tiefling" 
+             & wybierz_klase ( typ ) = "Narodzony z Magia";
+			 
+   1062: postac ( typ ) = "Tiefling Bard" if
+             wybierz_rase ( typ ) = "Tiefling" 
+             & wybierz_klase ( typ ) = "Muzyka i Magia";
+			 
+   1063: postac ( typ ) = "Tiefling Ranger" if
+             wybierz_rase ( typ ) = "Tiefling" 
+             & wybierz_klase ( typ ) = "Zrecznosc i Bron dystansowa";
+			 
+   1064: postac ( typ ) = "Tiefling Warlock" if
+             wybierz_rase ( typ ) = "Tiefling" 
+             & wybierz_klase ( typ ) = "Magia paktow i Cienie";
+			 
+   1065: postac ( typ ) = "Tiefling Druid" if
+             wybierz_rase ( typ ) = "Tiefling" 
+             & wybierz_klase ( typ ) = "Przywiazanie do natury";
+
+end;
+
+end; // facets

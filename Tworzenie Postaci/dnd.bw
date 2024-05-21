@@ -1,0 +1,92 @@
+knowledge base dnd
+
+sources
+
+  dnd:
+    type kb
+    file "dnd.zw";
+	
+  dnd_co_to:
+    type what_is_file
+    file "dnd_co_to.dbw";
+
+end; // sources
+
+
+control
+run;
+	
+// 	********************************** FUNKCJE*********************************
+
+	function wyjdz
+	begin
+		mainMenu;
+	end;
+
+	
+	//********************************** WINIETA **********************************
+	function winieta
+	begin
+		char Text1, Text2, Text3;
+		createAppWindow;
+		setAppWinTitle("  Wybór Postaci");
+		Text1 := " Wybór Postaci DND ";
+		Text2 := "System Ekspertowy Wspomagaj¹cy Wybór postaci do DND jest to program komputerowy, który wykorzystuje bazê wiedzy oraz mechanizm wnioskowania w celu doboru odpowiedniej postaci wed³ug naszych potrzeb.";
+		Text3 := "Sebastian Mrowiñski UKW 2023";
+		vignette( Text1, Text2, Text3 );
+	end;
+	//**************************** FUNKCJA WNIOSKUJACA *************************
+	function solver ( char X, char Y, char Z, char P )
+	begin
+		solutionWin( Z );
+		delNewFacts;
+		setSysText ( problem, P);
+		getSource ( X );
+		goal ( Y );
+		freeSource ( X );
+	end;
+
+	function asystent
+	begin
+		solver ( "dnd", "postac ( typ ) = X", "yes", "[BWybór postaci dla preferencji" );
+	end;
+
+//rozmiary okien
+
+	setWindowPos( picture_ask, 300, 120, 400, 600, 0);
+	setWindowPos( picture_solution, 300, 120, 400, 600, 0);
+
+	setWindowPos( ask, 700, 70, 400, 300, 0);
+	setWindowPos( solution, 700, 70, 400, 300, 0);
+	
+	setWindowPos( video_solution, 950, 70, 320, 240, 0);
+	setWindowPos( what_is, 700, 410, 650, 100, 0); 	
+
+// 	*************************************** END FUNKCJE *******************************************
+	
+	winieta;
+	
+	int MenuGlowne, Menu_1, Menu_2, Menu_3, Menu_4;
+	
+	createMenu( MenuGlowne );
+		createPopupMenu( Menu_1, "&Menu" );
+			appendMenu( Menu_1, "&Asystent wyboru Postaci", asystent );
+			appendMenu( Menu_1, separator, _ );
+			appendMenu( Menu_1, separator, _ );
+			appendMenu(Menu_1, "&Wyjscie z programu", wyjdz );
+		appendMenu ( MenuGlowne, menu, Menu_1);
+	
+		
+	appendMenu(MenuGlowne,menu,window);
+		
+		createPopupMenu( Menu_2, "&Pomoc" );
+			appendMenu( Menu_2, "&Informacje...", winieta );
+			
+		appendMenu ( MenuGlowne, menu, Menu_2 );
+	
+	fullMenu( MenuGlowne );
+
+end
+;
+
+end; // knowledge base

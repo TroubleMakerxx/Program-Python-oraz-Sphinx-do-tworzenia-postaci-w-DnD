@@ -1,0 +1,402 @@
+// Regu³y wygenerowano za pomoc¹ programu
+// DeTreex 4.5 - generator drzew decyzyjnych     12:34:17  25-10-2023
+// ==================================================================
+//
+//	Plik Ÿród³owy: "G:\pulpit\Uczelnia\zima 2023\In¿ynieria wiedzy i systemy ekspertowe CW\Tworzenie Postaci\Deetrex_kawa\dnd.lrn"
+//	Dane w pliku : 65 klas(y), 2 atrybutów, 65 przyk³adów ucz¹cych.
+//
+//	Parametry generowania drzewa: Min. przyk³adów   = 1,
+//	                              Przyciêcie drzewa = brak.
+
+knowledge base postac
+
+facets
+
+  ask yes;
+
+  postac : 
+     single no
+     val oneof
+     {
+        "Dragonborn Barbarian",
+        "Dragonborn Fighter",
+        "Dragonborn Monk",
+        "Dragonborn Paladin",
+        "Dragonborn Rouge",
+        "Dragonborn Cleric",
+        "Dragonborn Artificer",
+        "Dragonborn Wizard",
+        "Dragonborn Sourcerer",
+        "Dragonborn Bard",
+        "Dragonborn Ranger",
+        "Dragonborn Warlock",
+        "Dragonborn Druid",
+        "Dwarf Barbarian",
+        "Dwarf Fighter",
+        "Dwarf Monk",
+        "Dwarf Paladin",
+        "Dwarf Rogue",
+        "Dwarf Cleric",
+        "Dwarf Artificer",
+        "Dwarf Wizard",
+        "Dwarf Sorcerer",
+        "Dwarf Bard",
+        "Dwarf Ranger",
+        "Dwarf Warlock",
+        "Dwarf Druid",
+        "Elf Barbarian",
+        "Elf Fighter",
+        "Elf Monk",
+        "Elf Paladin",
+        "Elf Rogue",
+        "Elf Cleric",
+        "Elf Artificer",
+        "Elf Wizard",
+        "Elf Sorcerer",
+        "Elf Bard",
+        "Elf Ranger",
+        "Elf Warlock",
+        "Elf Druid",
+        "Human Barbarian",
+        "Human Fighter",
+        "Human Monk",
+        "Human Paladin",
+        "Human Rogue",
+        "Human Cleric",
+        "Human Artificer",
+        "Human Wizard",
+        "Human Sorcerer",
+        "Human Bard",
+        "Human Ranger",
+        "Human Warlock",
+        "Human Druid",
+        "Tiefling Barbarian",
+        "Tiefling Fighter",
+        "Tiefling Monk",
+        "Tiefling Paladin",
+        "Tiefling Rogue",
+        "Tiefling Cleric",
+        "Tiefling Artificer",
+        "Tiefling Wizard",
+        "Tiefling Sorcerer",
+        "Tiefling Bard",
+        "Tiefling Ranger",
+        "Tiefling Warlock",
+        "Tiefling Druid"
+     };
+
+  wybierz_rase : 
+     single yes
+     val oneof
+     {
+        "Dragonborn",
+        "Dwarf",
+        "Elf",
+        "Human",
+        "Tiefling"
+     };
+
+  wybierz_klase : 
+     single yes
+     val oneof
+     {
+        "Furia i Wscieklosc",
+        "Mistrz Miecza",
+        "Sztuki walki i duchowa energia",
+        "Straznik Swiatla",
+        "Infiltracja i Obrazenia krytyczne",
+        "Wsparcie i Leczenie",
+        "Inzynieria magiczna",
+        "Wiedza i Arkana Magi",
+        "Narodzony z Magia",
+        "Muzyka i Magia",
+        "Zrecznosc i Bron dystansowa",
+        "Magia paktow i Cienie",
+        "Przywiazanie do natury"
+     };
+
+end;   //facets
+
+rules
+
+  0001 : postac = "Dragonborn Barbarian" if		// (1.0)
+             wybierz_klase = "Furia i Wscieklosc",
+             wybierz_rase = "Dragonborn";
+
+  0002 : postac = "Dwarf Barbarian" if		// (1.0)
+             wybierz_klase = "Furia i Wscieklosc",
+             wybierz_rase = "Dwarf";
+
+  0003 : postac = "Elf Barbarian" if		// (1.0)
+             wybierz_klase = "Furia i Wscieklosc",
+             wybierz_rase = "Elf";
+
+  0004 : postac = "Human Barbarian" if		// (1.0)
+             wybierz_klase = "Furia i Wscieklosc",
+             wybierz_rase = "Human";
+
+  0005 : postac = "Tiefling Barbarian" if		// (1.0)
+             wybierz_klase = "Furia i Wscieklosc",
+             wybierz_rase = "Tiefling";
+
+  0006 : postac = "Dragonborn Fighter" if		// (1.0)
+             wybierz_klase = "Mistrz Miecza",
+             wybierz_rase = "Dragonborn";
+
+  0007 : postac = "Dwarf Fighter" if		// (1.0)
+             wybierz_klase = "Mistrz Miecza",
+             wybierz_rase = "Dwarf";
+
+  0008 : postac = "Elf Fighter" if		// (1.0)
+             wybierz_klase = "Mistrz Miecza",
+             wybierz_rase = "Elf";
+
+  0009 : postac = "Human Fighter" if		// (1.0)
+             wybierz_klase = "Mistrz Miecza",
+             wybierz_rase = "Human";
+
+  0010 : postac = "Tiefling Fighter" if		// (1.0)
+             wybierz_klase = "Mistrz Miecza",
+             wybierz_rase = "Tiefling";
+
+  0011 : postac = "Dragonborn Monk" if		// (1.0)
+             wybierz_klase = "Sztuki walki i duchowa energia",
+             wybierz_rase = "Dragonborn";
+
+  0012 : postac = "Dwarf Monk" if		// (1.0)
+             wybierz_klase = "Sztuki walki i duchowa energia",
+             wybierz_rase = "Dwarf";
+
+  0013 : postac = "Elf Monk" if		// (1.0)
+             wybierz_klase = "Sztuki walki i duchowa energia",
+             wybierz_rase = "Elf";
+
+  0014 : postac = "Human Monk" if		// (1.0)
+             wybierz_klase = "Sztuki walki i duchowa energia",
+             wybierz_rase = "Human";
+
+  0015 : postac = "Tiefling Monk" if		// (1.0)
+             wybierz_klase = "Sztuki walki i duchowa energia",
+             wybierz_rase = "Tiefling";
+
+  0016 : postac = "Dragonborn Paladin" if		// (1.0)
+             wybierz_klase = "Straznik Swiatla",
+             wybierz_rase = "Dragonborn";
+
+  0017 : postac = "Dwarf Paladin" if		// (1.0)
+             wybierz_klase = "Straznik Swiatla",
+             wybierz_rase = "Dwarf";
+
+  0018 : postac = "Elf Paladin" if		// (1.0)
+             wybierz_klase = "Straznik Swiatla",
+             wybierz_rase = "Elf";
+
+  0019 : postac = "Human Paladin" if		// (1.0)
+             wybierz_klase = "Straznik Swiatla",
+             wybierz_rase = "Human";
+
+  0020 : postac = "Tiefling Paladin" if		// (1.0)
+             wybierz_klase = "Straznik Swiatla",
+             wybierz_rase = "Tiefling";
+
+  0021 : postac = "Dragonborn Rouge" if		// (1.0)
+             wybierz_klase = "Infiltracja i Obrazenia krytyczne",
+             wybierz_rase = "Dragonborn";
+
+  0022 : postac = "Dwarf Rogue" if		// (1.0)
+             wybierz_klase = "Infiltracja i Obrazenia krytyczne",
+             wybierz_rase = "Dwarf";
+
+  0023 : postac = "Elf Rogue" if		// (1.0)
+             wybierz_klase = "Infiltracja i Obrazenia krytyczne",
+             wybierz_rase = "Elf";
+
+  0024 : postac = "Human Rogue" if		// (1.0)
+             wybierz_klase = "Infiltracja i Obrazenia krytyczne",
+             wybierz_rase = "Human";
+
+  0025 : postac = "Tiefling Rogue" if		// (1.0)
+             wybierz_klase = "Infiltracja i Obrazenia krytyczne",
+             wybierz_rase = "Tiefling";
+
+  0026 : postac = "Dragonborn Cleric" if		// (1.0)
+             wybierz_klase = "Wsparcie i Leczenie",
+             wybierz_rase = "Dragonborn";
+
+  0027 : postac = "Dwarf Cleric" if		// (1.0)
+             wybierz_klase = "Wsparcie i Leczenie",
+             wybierz_rase = "Dwarf";
+
+  0028 : postac = "Elf Cleric" if		// (1.0)
+             wybierz_klase = "Wsparcie i Leczenie",
+             wybierz_rase = "Elf";
+
+  0029 : postac = "Human Cleric" if		// (1.0)
+             wybierz_klase = "Wsparcie i Leczenie",
+             wybierz_rase = "Human";
+
+  0030 : postac = "Tiefling Cleric" if		// (1.0)
+             wybierz_klase = "Wsparcie i Leczenie",
+             wybierz_rase = "Tiefling";
+
+  0031 : postac = "Dragonborn Artificer" if		// (1.0)
+             wybierz_klase = "Inzynieria magiczna",
+             wybierz_rase = "Dragonborn";
+
+  0032 : postac = "Dwarf Artificer" if		// (1.0)
+             wybierz_klase = "Inzynieria magiczna",
+             wybierz_rase = "Dwarf";
+
+  0033 : postac = "Elf Artificer" if		// (1.0)
+             wybierz_klase = "Inzynieria magiczna",
+             wybierz_rase = "Elf";
+
+  0034 : postac = "Human Artificer" if		// (1.0)
+             wybierz_klase = "Inzynieria magiczna",
+             wybierz_rase = "Human";
+
+  0035 : postac = "Tiefling Artificer" if		// (1.0)
+             wybierz_klase = "Inzynieria magiczna",
+             wybierz_rase = "Tiefling";
+
+  0036 : postac = "Dragonborn Wizard" if		// (1.0)
+             wybierz_klase = "Wiedza i Arkana Magi",
+             wybierz_rase = "Dragonborn";
+
+  0037 : postac = "Dwarf Wizard" if		// (1.0)
+             wybierz_klase = "Wiedza i Arkana Magi",
+             wybierz_rase = "Dwarf";
+
+  0038 : postac = "Elf Wizard" if		// (1.0)
+             wybierz_klase = "Wiedza i Arkana Magi",
+             wybierz_rase = "Elf";
+
+  0039 : postac = "Human Wizard" if		// (1.0)
+             wybierz_klase = "Wiedza i Arkana Magi",
+             wybierz_rase = "Human";
+
+  0040 : postac = "Tiefling Wizard" if		// (1.0)
+             wybierz_klase = "Wiedza i Arkana Magi",
+             wybierz_rase = "Tiefling";
+
+  0041 : postac = "Dragonborn Sourcerer" if		// (1.0)
+             wybierz_klase = "Narodzony z Magia",
+             wybierz_rase = "Dragonborn";
+
+  0042 : postac = "Dwarf Sorcerer" if		// (1.0)
+             wybierz_klase = "Narodzony z Magia",
+             wybierz_rase = "Dwarf";
+
+  0043 : postac = "Elf Sorcerer" if		// (1.0)
+             wybierz_klase = "Narodzony z Magia",
+             wybierz_rase = "Elf";
+
+  0044 : postac = "Human Sorcerer" if		// (1.0)
+             wybierz_klase = "Narodzony z Magia",
+             wybierz_rase = "Human";
+
+  0045 : postac = "Tiefling Sorcerer" if		// (1.0)
+             wybierz_klase = "Narodzony z Magia",
+             wybierz_rase = "Tiefling";
+
+  0046 : postac = "Dragonborn Bard" if		// (1.0)
+             wybierz_klase = "Muzyka i Magia",
+             wybierz_rase = "Dragonborn";
+
+  0047 : postac = "Dwarf Bard" if		// (1.0)
+             wybierz_klase = "Muzyka i Magia",
+             wybierz_rase = "Dwarf";
+
+  0048 : postac = "Elf Bard" if		// (1.0)
+             wybierz_klase = "Muzyka i Magia",
+             wybierz_rase = "Elf";
+
+  0049 : postac = "Human Bard" if		// (1.0)
+             wybierz_klase = "Muzyka i Magia",
+             wybierz_rase = "Human";
+
+  0050 : postac = "Tiefling Bard" if		// (1.0)
+             wybierz_klase = "Muzyka i Magia",
+             wybierz_rase = "Tiefling";
+
+  0051 : postac = "Dragonborn Ranger" if		// (1.0)
+             wybierz_klase = "Zrecznosc i Bron dystansowa",
+             wybierz_rase = "Dragonborn";
+
+  0052 : postac = "Dwarf Ranger" if		// (1.0)
+             wybierz_klase = "Zrecznosc i Bron dystansowa",
+             wybierz_rase = "Dwarf";
+
+  0053 : postac = "Elf Ranger" if		// (1.0)
+             wybierz_klase = "Zrecznosc i Bron dystansowa",
+             wybierz_rase = "Elf";
+
+  0054 : postac = "Human Ranger" if		// (1.0)
+             wybierz_klase = "Zrecznosc i Bron dystansowa",
+             wybierz_rase = "Human";
+
+  0055 : postac = "Tiefling Ranger" if		// (1.0)
+             wybierz_klase = "Zrecznosc i Bron dystansowa",
+             wybierz_rase = "Tiefling";
+
+  0056 : postac = "Dragonborn Warlock" if		// (1.0)
+             wybierz_klase = "Magia paktow i Cienie",
+             wybierz_rase = "Dragonborn";
+
+  0057 : postac = "Dwarf Warlock" if		// (1.0)
+             wybierz_klase = "Magia paktow i Cienie",
+             wybierz_rase = "Dwarf";
+
+  0058 : postac = "Elf Warlock" if		// (1.0)
+             wybierz_klase = "Magia paktow i Cienie",
+             wybierz_rase = "Elf";
+
+  0059 : postac = "Human Warlock" if		// (1.0)
+             wybierz_klase = "Magia paktow i Cienie",
+             wybierz_rase = "Human";
+
+  0060 : postac = "Tiefling Warlock" if		// (1.0)
+             wybierz_klase = "Magia paktow i Cienie",
+             wybierz_rase = "Tiefling";
+
+  0061 : postac = "Dragonborn Druid" if		// (1.0)
+             wybierz_klase = "Przywiazanie do natury",
+             wybierz_rase = "Dragonborn";
+
+  0062 : postac = "Dwarf Druid" if		// (1.0)
+             wybierz_klase = "Przywiazanie do natury",
+             wybierz_rase = "Dwarf";
+
+  0063 : postac = "Elf Druid" if		// (1.0)
+             wybierz_klase = "Przywiazanie do natury",
+             wybierz_rase = "Elf";
+
+  0064 : postac = "Human Druid" if		// (1.0)
+             wybierz_klase = "Przywiazanie do natury",
+             wybierz_rase = "Human";
+
+  0065 : postac = "Tiefling Druid" if		// (1.0)
+             wybierz_klase = "Przywiazanie do natury",
+             wybierz_rase = "Tiefling";
+
+end;   //rules
+
+control
+
+  char Txt1, Txt2, Txt3;
+
+  run;
+  createAppWindow;
+  Txt1 := "Aplikacja 'postac'";
+  Txt2 := "\n\n\nBaza wiedzy wygenerowana za pomoc¹ programu\n\n DeTreex 4.5";
+  Txt3 := "© AITECH Artificial Intelligence Laboratory, Katowice 2023";
+  vignette( Txt1, Txt2, Txt3 );
+
+  goal ("postac=X");
+  delNewFacts;
+
+  // <- blok instrukcji i funkcji
+
+end;   //control
+
+end;   //knowledge base

@@ -1,0 +1,67 @@
+we	we	wy
+#wybierz rase	#wybierz klase	#postac
+Dragonborn	Furia i Wscieklosc	Dragonborn Barbarian
+Dragonborn	Mistrz Miecza	Dragonborn Fighter
+Dragonborn	Sztuki walki i duchowa energia	Dragonborn Monk
+Dragonborn	Straznik Swiatla	Dragonborn Paladin
+Dragonborn	Infiltracja i Obrazenia krytyczne	Dragonborn Rouge
+Dragonborn	Wsparcie i Leczenie	Dragonborn Cleric
+Dragonborn	Inzynieria magiczna	Dragonborn Artificer
+Dragonborn	Wiedza i Arkana Magi	Dragonborn Wizard
+Dragonborn	Narodzony z Magia	Dragonborn Sourcerer
+Dragonborn	Muzyka i Magia	Dragonborn Bard
+Dragonborn	Zrecznosc i Bron dystansowa	Dragonborn Ranger
+Dragonborn	Magia paktow i Cienie	Dragonborn Warlock
+Dragonborn	Przywiazanie do natury	Dragonborn Druid
+Dwarf 	Furia i Wscieklosc	Dwarf Barbarian
+Dwarf 	Mistrz Miecza	Dwarf Fighter
+Dwarf 	Sztuki walki i duchowa energia	Dwarf Monk
+Dwarf 	Straznik Swiatla	Dwarf Paladin
+Dwarf 	Infiltracja i Obrazenia krytyczne	Dwarf Rogue
+Dwarf 	Wsparcie i Leczenie	Dwarf Cleric
+Dwarf 	Inzynieria magiczna	Dwarf Artificer
+Dwarf 	Wiedza i Arkana Magi	Dwarf Wizard
+Dwarf 	Narodzony z Magia	Dwarf Sorcerer
+Dwarf 	Muzyka i Magia	Dwarf Bard
+Dwarf 	Zrecznosc i Bron dystansowa	Dwarf Ranger
+Dwarf 	Magia paktow i Cienie	Dwarf Warlock
+Dwarf 	Przywiazanie do natury	Dwarf Druid
+Elf	Furia i Wscieklosc	Elf Barbarian
+Elf	Mistrz Miecza	Elf Fighter
+Elf	Sztuki walki i duchowa energia	Elf Monk
+Elf	Straznik Swiatla	Elf Paladin
+Elf	Infiltracja i Obrazenia krytyczne	Elf Rogue
+Elf	Wsparcie i Leczenie	Elf Cleric
+Elf	Inzynieria magiczna	Elf Artificer
+Elf	Wiedza i Arkana Magi	Elf Wizard
+Elf	Narodzony z Magia	Elf Sorcerer
+Elf	Muzyka i Magia	Elf Bard
+Elf	Zrecznosc i Bron dystansowa	Elf Ranger
+Elf	Magia paktow i Cienie	Elf Warlock
+Elf	Przywiazanie do natury	Elf Druid
+Human	Furia i Wscieklosc	Human Barbarian
+Human	Mistrz Miecza	Human Fighter
+Human	Sztuki walki i duchowa energia	Human Monk
+Human	Straznik Swiatla	Human Paladin
+Human	Infiltracja i Obrazenia krytyczne	Human Rogue
+Human	Wsparcie i Leczenie	Human Cleric
+Human	Inzynieria magiczna	Human Artificer
+Human	Wiedza i Arkana Magi	Human Wizard
+Human	Narodzony z Magia	Human Sorcerer
+Human	Muzyka i Magia	Human Bard
+Human	Zrecznosc i Bron dystansowa	Human Ranger
+Human	Magia paktow i Cienie	Human Warlock
+Human	Przywiazanie do natury	Human Druid
+Tiefling	Furia i Wscieklosc	Tiefling Barbarian
+Tiefling	Mistrz Miecza	Tiefling Fighter
+Tiefling	Sztuki walki i duchowa energia	Tiefling Monk
+Tiefling	Straznik Swiatla	Tiefling Paladin
+Tiefling	Infiltracja i Obrazenia krytyczne	Tiefling Rogue
+Tiefling	Wsparcie i Leczenie	Tiefling Cleric
+Tiefling	Inzynieria magiczna	Tiefling Artificer
+Tiefling	Wiedza i Arkana Magi	Tiefling Wizard
+Tiefling	Narodzony z Magia	Tiefling Sorcerer
+Tiefling	Muzyka i Magia	Tiefling Bard
+Tiefling	Zrecznosc i Bron dystansowa	Tiefling Ranger
+Tiefling	Magia paktow i Cienie	Tiefling Warlock
+Tiefling	Przywiazanie do natury	Tiefling Druid

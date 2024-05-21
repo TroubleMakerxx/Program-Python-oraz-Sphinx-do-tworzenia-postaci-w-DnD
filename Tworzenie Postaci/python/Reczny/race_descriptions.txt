@@ -1,0 +1,24 @@
+Dragonborn:
+-Wygląd: Dragonborn są ludźmi ze skórą w różnych odcieniach kolorów smoków, jak czerwony, niebieski, zielony lub czarny. Mają rogopodobne wyrośnięcia na głowach oraz skrzydlate narośla na plecach.
+-Cechy: Dragonborn są znani ze swojej siły i dumy. Każda podrasa Dragonborn ma własne zdolności związane z rodzajem smoka, którego przodkowie wywodzą się od.
+-Historia: Dragonborn wywodzą się od smoków i są dumnie związani ze swoim pochodzeniem. Mają bogatą historię związaną z konfliktami i współpracą z innymi rasami w świecie D&D.
+
+Dwarf:
+-Wygląd: Dwarfy to krótkowzrostłe i krępe istoty o ciemnej skórze, brodate twarze, często ozdobione metalowymi ozdobami. Są znani ze swojej wytrzymałości i siły.
+-Cechy: Dwarfy są utalentowane w rzemiośle, górnictwie i wojennej sztuce. Są też znani ze swojego uporu i lojalności.
+-Historia: Dwarfy są znane z budowy imponujących miast pod ziemią i skomplikowanego systemu klanów. Są odwiecznymi wrogami orków i goblinów.
+
+Elf:
+-Wygląd: Elfy są wysokie i smukłe, o pięknych cechach twarzy i długich uszach. Ich skóra bywa blada lub lekko opalizująca, a włosy i oczy przyjmują różne kolory.
+-Cechy: Elfy są znani ze swojej elegancji i zwinności. Są zdolni do życia przez wiele wieków i są obdarzeni magicznymi zdolnościami.
+-Historia: Elfy mają długą historię i są zazwyczaj przedstawiane jako strażnicy przyrody i tajemniczych sekretów. W wielu settingach D&D są rasą wysoko rozwiniętą pod względem kultury i magii.
+
+Human:
+-Wygląd: Ludzie przyjmują różne formy i kolory skóry, włosów i oczu. Są to jedne z najbardziej zróżnicowanych ras pod względem wyglądu.
+-Cechy: Ludzie są niezwykle elastyczni i zdolni do dostosowania się do różnych sytuacji. Są wszechstronni i często wiodą wiodące role w świecie D&D.
+-Historia: Ludzie są często przedstawiani jako jedna z najmłodszych ras w świecie D&D, ale ich krótka historia jest pełna ekspansji, kolonizacji i zdobywania nowych ziem.
+
+Tiefling:
+-Wygląd: Tieflingi mają ludzkie podobne ciała, ale charakteryzują się cechami demonicznymi, takimi jak rogi na głowie, czerwona lub niebieska skóra, ogon czy złowieszczy wyraz twarzy.
+-Cechy: Tieflingi odziedziczyli pewne zdolności demoniczne, takie jak zdolność do rzucania czarów. Często doświadczają uprzedzenia ze względu na swoje demoniczne pochodzenie.
+-Historia: Tieflingi są potomkami demonów lub innych istot z innego wymiaru. Ich historia jest często związana z wyzwaniem uprzedzeń i poszukiwaniem swojego miejsca w świecie D&D.

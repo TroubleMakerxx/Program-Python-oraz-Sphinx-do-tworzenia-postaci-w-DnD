@@ -1,0 +1,51 @@
+Furia_i_Wscieklosc:
+Barbarianie to dzicy wojownicy, którzy czerpią swoją siłę z prymitywnych instynktów i gniewu.
+Ta klasa skupia się na walce wręcz, wykorzystując swoją wściekłość do zadawania ogromnych obrażeń i odporności na obrażenia w walce. Barbarianie często wywodzą się z plemion lub ludów barbarzyńskich i nie boją się wchodzić w sam środek bitwy.
+
+Infiltracja_i_Obrazenia_krytyczne:
+Rogue to mistrzowie skradania się, obserwacji i podstępu. Często pracują jako złodzieje, szpiedzy lub zabójcy.
+Ta klasa skupia się na unikaniu walki, skradaniu się i zadawaniu krytycznych obrażeń wrogom. Rogues są biegli w rozbrajaniu pułapek, otwieraniu zamków i wykrywaniu ukrytych zagrożeń.
+
+Inzynieria_magiczna:
+Artificerzy to wynalazcy i kreatorzy magicznych przedmiotów. Potrafią łączyć naukę i magię w praktyczne zastosowania.
+Ta klasa skupia się na tworzeniu magicznych gadżetów, zaklęć i konstruktów. Artificerzy są nie tylko uzdolnieni w tworzeniu, ale także w obsłudze magii.
+
+Magia_paktow_i_Cienie:
+Warlocki zawierają tajemnicze pakt z istotami z innego wymiaru, co daje im dostęp do magicznych mocy.
+Ta klasa skupia się na używaniu mrocznej magii i korzystaniu z umów z nadprzyrodzonymi bytami. Warlocki mają zdolność do rzucania czarów, które często są związane z magią chaosu, demony lub potężnymi istotami z innego wymiaru. Ich moce pochodzą z tajemniczych umów, które często mają swoją cenę.
+
+Mistrz_Miecza:
+Mistrzowie Miecza to mistrzowie walki z bronią. Są wszechstronni w walce, potrafią posługiwać się różnymi rodzajami broni, od mieczy po łuki.
+Ta klasa skupia się na doskonaleniu umiejętności w walce, wykorzystywaniu taktyki i zdobywaniu doświadczenia w bojach. Mistrzowie Miecza mogą stać się nieustraszonymi wojownikami lub zręcznymi strzelcami.
+
+Muzyka_i_Magia:
+Bardowie to artyści, którzy wykorzystują magię swojej muzyki, słów i sztuki w walce i na rzecz sojuszników.
+Ta klasa skupia się na rzucaniu czarów, inspirowaniu sojuszników i działaniu jako główni zabawiający w grupie. Bardowie są często muzykami, aktorami lub poetami.
+
+Narodzony_z_Magia:
+Sorcerer to osoby obdarzone wrodzoną mocą magiczną, którą nie muszą sięgać do nauki czy ksiąg.
+Ta klasa skupia się na wykorzystywaniu wrodzonych zdolności magicznych, takich jak manipulacja żywiołami, telekineza lub kontrola umysłu. Sorcerery to osoby, które rodzą się z wyjątkowym darem.
+
+Przywiazanie_do_natury:
+Druidzi to strażnicy przyrody i magii natury. Są w zgodzie z ekosystemem i dążą do zachowania równowagi w świecie.
+Ta klasa skupia się na kontaktowaniu się z przyrodą i wykorzystywaniu jej mocy. Druidzi potrafią zmieniać formę, przywoływać zwierzęta, rzucić czary związanymi z roślinami i żywiołami. Są często duchowymi przewodnikami w dzikich i dziewiczych miejscach, a ich magiczne umiejętności pochodzą od natury samej. Druidzi mają także zdolność komunikacji z zwierzętami i odnalezienia drogi w dzikim terenie.
+
+Straznik_Swiatla:
+Paladyni to rycerze i strażnicy świętych wartości. Ich siła pochodzi zarówno z fizycznej potęgi, jak i wiary.
+Ta klasa skupia się na ochronie innych, walce ze złem i posługiwaniu się świętą magią. Paladyni są zazwyczaj lojalni wobec boga lub ideologii, której służą.
+
+Sztuki_walki_i_duchowa_energia:
+-Mnisi to mistrzowie sztuk walki, którzy wykorzystują swój własny ciało i duchową energię do walki.
+Ta klasa skupia się na szybkości, zwinności i wykorzystywaniu unikalnych zdolności, takich jak techniki ciosów krytycznych i obrona przed magią. Mnisi często żyją w klasztorach i dążą do duchowego doskonalenia.
+
+Wiedza_i_Arkana_Magi:
+Czarodzieje to studenci magii, którzy zdobywają wiedzę i moc poprzez naukę i eksperymenty.
+Ta klasa skupia się na rzucaniu czarów, tworzeniu run i scrolli oraz poznawaniu sekretów magii. Czarodzieje to naukowcy magii, którzy nieustannie poszukują nowych odkryć.
+
+Wsparcie_i_Leczenie:
+Klerycy to kapłani i uzdrowiciele, którzy czerpią moc z boskiej wiary i modlitw.
+Ta klasa skupia się na leczeniu rannych, ochronie sojuszników i wykorzystywaniu magii związaną z wiarą. Clericy często służą swojemu bogu lub bogom, pełniąc rolę duchowych przewodników.
+
+Zrecznosc_i_Bron_dystansowa:
+Rangerzy to eksperci od przetrwania w dzikim terenie, z umiejętnościami w łucznictwie i tropieniu.
+Ta klasa skupia się na polowaniu, rozpoznawaniu zagrożeń i zadawaniu obrażeń z odległości. Rangerzy są często samotnikami, którzy żyją na uboczu cywilizacji.

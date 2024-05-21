@@ -1,0 +1,129 @@
+// Regu³y wygenerowano za pomoc¹ programu
+// DeTreex 4.0 - generator drzew decyzyjnych     16:19:23  09-10-2019
+// ==================================================================
+
+//	Plik Ÿród³owy: "C:\Users\JKuba\Desktop\IWiSE\przyklad_SE_kawa\Deetrex_kawa\test.lrn"
+//	Dane w pliku : 10 klas(y), 4 atrybutów, 110 przyk³adów ucz¹cych.
+
+//	Parametry generowania drzewa: Min. przyk³adów   = 2,
+//	                              Przyciêcie drzewa = 25% (przyciêcie niemo¿liwe).
+
+knowledge base wybrana_kawa
+
+facets
+
+  ask yes;
+
+  wybrana_kawa : 
+     single no
+     val oneof
+     {
+        "chocolate cold coffe",
+        "vanilla frozen latte",
+        "raspberry frozen latte",
+        "maple frozen latte",
+        "irish cream frozen latte",
+        "froze latte z bit¹ œmietan¹",
+        "vanilla cold coffee",
+        "raspberry cold coffee",
+        "maple cold coffee",
+        "irish cream cold coffee"
+     };
+
+  rodzaj_kawy : 
+     single yes
+     val oneof
+     {
+        "zimna"
+     };
+
+  typ_sch³odzenia : 
+     single yes
+     val oneof
+     {
+        "lód kruszony"
+     };
+
+  dodatek : 
+     single yes
+     val oneof
+     {
+        "czekolada",
+        "syrop",
+        "bita œmietana",
+        "wszystkie"
+     };
+
+  syrop : 
+     single yes
+     val oneof
+     {
+        "waniliowy",
+        "malinowy",
+        "klonowy",
+        "irish cream"
+     };
+
+end;   //facets
+
+rules
+
+  0001 : wybrana_kawa = "chocolate cold coffe" if		// (11.0)
+             dodatek = "czekolada";
+
+  0002 : wybrana_kawa = "froze latte z bit¹ œmietan¹" if		// (11.0)
+             dodatek = "bita œmietana";
+
+  0003 : wybrana_kawa = "vanilla frozen latte" if		// (11.0)
+             dodatek = "syrop",
+             syrop = "waniliowy";
+
+  0004 : wybrana_kawa = "raspberry frozen latte" if		// (11.0)
+             dodatek = "syrop",
+             syrop = "malinowy";
+
+  0005 : wybrana_kawa = "maple frozen latte" if		// (11.0)
+             dodatek = "syrop",
+             syrop = "klonowy";
+
+  0006 : wybrana_kawa = "irish cream frozen latte" if		// (11.0)
+             dodatek = "syrop",
+             syrop = "irish cream";
+
+  0007 : wybrana_kawa = "vanilla cold coffee" if		// (11.0)
+             dodatek = "wszystkie",
+             syrop = "waniliowy";
+
+  0008 : wybrana_kawa = "raspberry cold coffee" if		// (11.0)
+             dodatek = "wszystkie",
+             syrop = "malinowy";
+
+  0009 : wybrana_kawa = "maple cold coffee" if		// (11.0)
+             dodatek = "wszystkie",
+             syrop = "klonowy";
+
+  0010 : wybrana_kawa = "irish cream cold coffee" if		// (11.0)
+             dodatek = "wszystkie",
+             syrop = "irish cream";
+
+end;   //rules
+
+control
+
+  char Txt1, Txt2, Txt3;
+
+  run;
+  createAppWindow;
+  Txt1 := "Aplikacja 'wybrana kawa'";
+  Txt2 := "\n\n\nBaza wiedzy wygenerowana za pomoc¹ programu\n\n DeTreex 4.0";
+  Txt3 := "© AITECH Artificial Intelligence Laboratory, Katowice 2003";
+  vignette( Txt1, Txt2, Txt3 );
+
+  goal ("wybrana_kawa=X");
+  delNewFacts;
+
+  // <- blok instrukcji i funkcji
+
+end;   //control
+
+end;   //knowledge base
